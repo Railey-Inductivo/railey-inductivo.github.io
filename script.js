@@ -180,7 +180,6 @@ function initMeetTeam() {
             ease: "power3.out"
         });
     
-        updateCursorClass(e.clientX);
     });
     
     const updateInfo = (slideNumber) =>{
@@ -315,7 +314,6 @@ function initImageExpand() {
 
 //Runs the functions when page loads
 window.onload = function () {
-    initCustomCursor();
     initScrollTop();
 };
 
