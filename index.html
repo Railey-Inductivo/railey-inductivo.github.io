@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+        <link rel="stylesheet" href="/CSS/title.css">
+        <link rel="stylesheet" href="/CSS/about.css">
+        <link rel="stylesheet" href="/CSS/services.css">
+        <link rel="stylesheet" href="/CSS/gallery.css">
+        <link rel="stylesheet" href="/CSS/contact.css">
+
+        <title>Rydiant Photographs</title>
+    </head>
+    <body>
+        <!--Custom Cursor-->
+        <div class="rydiant-cursor" data-rydiant-cursor></div>
+
+        <!--Start of Navigation Bar-->
+        <nav>
+            <div class="nav-row">
+                <div class="company-logo">
+                    <a href="#"><h1>Rydiant Photographs</h1></a>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <svg viewBox="0 0 12 10" class="menu-symbol" height="40px"
+                    width="40px">
+                         <path d="M10,2 L2,2" class="first-bar"></path>
+                         <path d="M2,5 L10,5" class="second-bar"></path>
+                         <path d="M10,8 L2,8" class="third-bar"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!--Navigation Bar Menu Fullscreen-->
+        <div class="menu-screen" id="menuScreen">
+            <div class="menu-screen-cover">
+                <div class="menu-overlay">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="navbar">
+                    <ul class="nav-contents">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--End of Navigation Bar-->
+
+        <!--Start of Title Page-->
+        <div class="title-page-container">
+            <div class="video-container">
+                <video src="/Video/PromoVideo.mp4" autoplay loop muted></video>
+                <div class="logo-overlay">
+                    <img src="/Images/rydiant-photographs-logo.png" alt="Company Logo">
+                </div>
+            </div>
+        </div>
+        <!--End of Title Page-->
+
+        <!--Start of About Us Page-->
+        <div class="about-page-container" id="about">
+            <div class="star-container">
+                <div class="star star1"></div>
+                <div class="star star2"></div>
+                <div class="star star3"></div>
+                <div class="star star4"></div>
+                <div class="star star5"></div>
+                <div class="star star6"></div>
+                <div class="star star7"></div>
+                <div class="star star8"></div>
+            </div>
+
+            <div class="about-container">
+                <div class="about-img appear">
+                    <img src="/Images/couple.png" alt="Title Image">
+                </div>
+                <div class="about-text appear">
+                    <h1>Capturing Moments & Creating Memories</h1>
+                    <p>Welcome to Rydiant Photographs, where every moment is captured with passion, creativity, and a touch of magic.<br><br>We believe that photography is an art form that goes beyond freezing time; it's about encapsulating emotions, telling stories, and creating memories that last a lifetime.</p>
+                </div>
+            </div>
+        </div>
+        <!--End of About Us Page-->
+
+        <!--Start of Why Us Page-->
+        <div class="whyus-page-container">
+            <div class="splide appear">
+                <div class="splide__track splide__track-1">
+                    <ul class="splide__list">
+                        <li class="splide__slide">Why Choose</li>
+                        <li class="splide__slide">Us?</li>
+                        <li class="splide__slide"><i class="fa-solid fa-diamond"></i></li>
+                        <li class="splide__slide">Why Choose</li>
+                        <li class="splide__slide">Us?</li>
+                        <li class="splide__slide"><i class="fa-solid fa-diamond"></i></li>
+                        <li class="splide__slide">Why Choose</li>
+                        <li class="splide__slide">Us?</li>
+                        <li class="splide__slide"><i class="fa-solid fa-diamond"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="whyus-container appear">
+                <div class="whyus-box active" style="background-image: url('https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                    <h2>Passionate Expertise</h2>
+                    <p>Genuine passion for capturing special moments with creativity and care.</p>
+                    <div class="box-number">1</div>
+                </div>
+
+                <div class="whyus-box" style="background-image: url('https://images.unsplash.com/photo-1607081692251-d689f1b9af84?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                    <h2>Tech-Driven Precision</h2>
+                    <p>Deliver high-resolution images using advanced post-processing techniques.</p>
+                    <div class="box-number">2</div>
+                </div>
+
+                <div class="whyus-box" style="background-image: url('https://images.unsplash.com/flagged/photo-1557930526-88cb50508a68?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                    <h2>Genre Versatility</h2>
+                    <p>Showcasing versatility by adapting to diverse photography genres with exceptional results.</p>
+                    <div class="box-number">3</div>
+                </div>
+
+                <div class="whyus-box" style="background-image: url('https://images.unsplash.com/photo-1626934457734-432d940d48a1?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                    <h2>Tailored Personalization</h2>
+                    <p>Ensuring that each photograph reflects individual preferences and storytelling nuances.</p>
+                    <div class="box-number">4</div>
+                </div>
+            </div>
+        </div>
+        <!--End of Why Us Page-->
+
+        <!--Start of Meet The Team Page-->
+        <div class="team-page-container">
+            <div class="team-section appear">
+                <div class="team-overlay">
+                    <div class="team1 marquee-wrap">
+                        <h1>Meet The Team Meet The Team Meet The Team Meet The Team</h1>
+                    </div>
+                    <div class="team2 marquee-wrap">
+                        <h1>Meet The Team Meet The Team Meet The Team Meet The Team</h1>
+                    </div>
+                    <div class="team3 marquee-wrap">
+                        <h1>Meet The Team Meet The Team Meet The Team Meet The Team</h1>
+                    </div>
+                </div>
+
+                <div class="star-container">
+                    <div class="star star1"></div>
+                    <div class="star star2"></div>
+                    <div class="star star3"></div>
+                    <div class="star star4"></div>
+                    <div class="star star5"></div>
+                    <div class="star star6"></div>
+                    <div class="star star7"></div>
+                    <div class="star star8"></div>
+                </div>
+
+                <div class="team-image-container">
+                    <div class="team-images">
+                        <div class="team-img" id="team1">
+                            <img src="/Images/team1.jpg" alt="Team Person 1">
+                        </div>
+
+                        <div class="team-img" id="team2">
+                            <img src="/Images/team2.jpg" alt="Team Person 2">
+                        </div>
+
+                        <div class="team-img" id="team3">
+                            <img src="/Images/team3.jpg" alt="Team Person 3">
+                        </div>
+                    </div>
+                    <div class="team-details">
+                        <p class="team-name">Haleigh Rolf</p>
+                        <p class="team-role">Founder & Photographer</p>
+                        <p class="team-instruction">Click on left and right side of screen to navigate through team members.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Meet The Team Page-->
+
+        <!--Start of Notable Clients Page-->
+        <div class="ourclients-page-container">
+            <div class="rydiant-clients appear">
+                <h2>Rydiant Photographs' Featured Clients</h2>
+                <h1>Radiant Clients We Work With</h1>
+            </div>
+            <div class="splide appear">
+                <div class="splide__track splide__track-2">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="/SVGs/behance-1.svg" alt="Client Logo"></li>
+                        <li class="splide__slide"><img src="/SVGs/facebook-3-2.svg" alt="Client Logo"></li>
+                        <li class="splide__slide"><img src="/SVGs/microsoft-5.svg" alt="Client Logo"></li>
+                        <li class="splide__slide"><img src="/SVGs/natal.svg" alt="Client Logo"></li>
+                        <li class="splide__slide"><img src="/SVGs/behance-1.svg" alt="Client Logo"></li>
+                        <li class="splide__slide"><img src="/SVGs/facebook-3-2.svg" alt="Client Logo"></li>
+                       <li class="splide__slide"><img src="/SVGs/microsoft-5.svg" alt="Client Logo"></li>
+                       <li class="splide__slide"><img src="/SVGs/natal.svg" alt="Client Logo"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--End of Notable Clients Page-->
+
+        <!--Start of Testimonials Page-->
+        <div class="rydiant-testimonials-container">
+            <div class="rydiant-testimonials-wrapper">
+                <div class="testimonials-header appear">
+                    <h2>Discover the Stories Behind the Lens</h2>
+                    <h1>Raving Reviews from Our Cherished Clients</h1>
+                </div>
+                <div class="rydiant-testimonials-grid appear">
+                    <div class="testimonial-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>Rydiant Photographs captured the essence of our special day like no other. The attention to detail and creativity in every shot were simply extraordinary. We're forever grateful for the timeless memories they've provided us.</p>
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <img src="/Images/galleryItem3.jpg" alt="Testimonials Person Image">
+                        <p class="testimonial-name">John Doe</p>
+                        <p class="testimonial-job">Wedding Planner</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>Working with Rydiant Photographs was an absolute pleasure. The team's professionalism and passion for their craft truly shine through. The quality of their work exceeded our expectations, and we couldn't be happier with the results.</p>
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <img src="/Images/galleryItem7.jpg" alt="Testimonials Person Image">
+                        <p class="testimonial-name">Michael Smith</p>
+                        <p class="testimonial-job">Event Coordinator</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        <p>Rydiant Photographs doesn't just take pictures; they create art. Each photograph tells a unique story, and the emotions captured are nothing short of magical. Their commitment to excellence and customer satisfaction is truly commendable.</p>
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <img src="/Images/galleryItem5.jpg" alt="Testimonials Person Image">
+                        <p class="testimonial-name">Alex Turner</p>
+                        <p class="testimonial-job">Art Curator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Testimonials Page-->
+
+        <!--Start of Our Services Page-->
+        <div class="ourservices-page-container" id="service">
+            <div class="star-container">
+                <div class="star star1"></div>
+                <div class="star star2"></div>
+                <div class="star star3"></div>
+                <div class="star star4"></div>
+                <div class="star star5"></div>
+                <div class="star star6"></div>
+                <div class="star star7"></div>
+                <div class="star star8"></div>
+            </div>
+            <h2 class="appear">Our Rydiant Specialties</h2>
+            <h1 class="appear">Unveiling Excellence in Every Service</h1>
+            <div class="services-container appear">
+                <div class="service-item service-item1">
+                    <div class="service-name sn1">Portrait</div>
+                    <div class="services-img">
+                        <img src="/Images/services1.jpg" alt="Service Image">
+                    </div>
+                    <div class="service-name sn2">Photography</div>
+                </div>
+                <div class="service-item service-item2">
+                    <div class="service-name sn1">Event</div>
+                    <div class="services-img">
+                        <img src="/Images/services2.jpg" alt="Service Image">
+                    </div>
+                    <div class="service-name sn2">Photography</div>
+                </div>
+                <div class="service-item service-item3">
+                    <div class="service-name sn1">Fashion</div>
+                    <div class="services-img">
+                        <img src="/Images/services3.jpg" alt="Service Image">
+                    </div>
+                    <div class="service-name sn2">Photography</div>
+                </div>
+            </div>
+        </div>
+        <!--End of Our Services Page-->
+
+        <!--Start of Services Description Page-->
+        <div class="servicedesc-page-container">
+            <div class="star-container">
+                <div class="star star1"></div>
+                <div class="star star2"></div>
+                <div class="star star3"></div>
+                <div class="star star4"></div>
+                <div class="star star5"></div>
+                <div class="star star6"></div>
+                <div class="star star7"></div>
+                <div class="star star8"></div>
+            </div>
+            <div class="service-card-container appear">
+                <div class="service-card">
+                    <div class="side side1">
+                        <div class="service-content">
+                            <h3>Portrait Photography</h3>
+                        </div>
+                    </div>
+                    <div class="side side2">
+                        <div class="service-content">
+                            <p>Rydiant Photographs provides an exceptional portrait photography service, combining technical expertise and artistic vision to capture the unique essence of each subject with personalized, timeless, and captivating images.</p>
+                            <a href="#gallery">View Gallery</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="service-card">
+                    <div class="side side1">
+                        <div class="service-content">
+                            <h3>Event Photography</h3>
+                        </div>
+                    </div>
+                    <div class="side side2">
+                        <div class="service-content">
+                            <p>Rydiant Photographs excels in event photography, skillfully capturing the essence and memorable moments of any occasion with a blend of technical proficiency and artistic flair.</p>
+                            <a href="#gallery">View Gallery</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="service-card">
+                    <div class="side side1">
+                        <div class="service-content">
+                            <h3>Fashion Photography</h3>
+                        </div>
+                    </div>
+                    <div class="side side2">
+                        <div class="service-content">
+                            <p>Rydiant Photographs stands out in the realm of fashion photography, bringing a unique blend of creativity and technical expertise to capture striking and visually compelling images that showcase the style and essence of each subject.</p>
+                            <a href="#gallery">View Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Services Description Page-->
+
+        
+        <!--Start of Gallery Page-->
+        <div class="gallery-page-container" id="gallery">
+            <h2 class="appear">Rydiant Photographs' Gallery</h2>
+            <h1 class="appear">Have A Look Through Our Lens</h1>
+            <div class="rydiant-gallery-filter appear">
+                <button class="rydiant-filter-btn active" data-filter="all">All</button>
+                <button class="rydiant-filter-btn" data-filter="portrait">Portrait Photography</button>
+                <button class="rydiant-filter-btn" data-filter="event">Event Photography</button>
+                <button class="rydiant-filter-btn" data-filter="fashion">Fashion Photography</button>
+            </div>
+            <div class="rydiant-gallery appear">
+                <a href="/Images/galleryItem1.jpg" class="rydiant-gallery-item portrait">
+                    <img src="/Images/galleryItem1.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 1</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Images/galleryItem2.jpg" class="rydiant-gallery-item fashion">
+                    <img src="/Images/galleryItem2.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 2</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Images/galleryItem3.jpg" class="rydiant-gallery-item portrait">
+                    <img src="/Images/galleryItem3.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 3</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Images/galleryItem4.jpg" class="rydiant-gallery-item event">
+                    <img src="/Images/galleryItem4.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 4</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Images/galleryItem5.jpg" class="rydiant-gallery-item portrait">
+                    <img src="/Images/galleryItem5.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 5</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/Images/galleryItem6.jpg" class="rydiant-gallery-item fashion">
+                    <img src="/Images/galleryItem6.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 6</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/Images/galleryItem8.jpg" class="rydiant-gallery-item event">
+                    <img src="/Images/galleryItem8.jpg" alt="Gallery Image">
+                    <div class="rydiant-overlay">
+                        <div class="rydiant-overlay-content">
+                            <h3>Image 7</h3>
+                            <h3 class="gallery-subhead">Click to expand</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--End of Gallery Page-->
+
+        <!--Start of Contact Us Page-->
+        <div class="contact-page-container" id="contact">
+            <h2 class="appear">Reach Out and Connect</h2>
+            <h1 class="appear">Capture Your Memories with Us</h1>
+            <div class="rydiant-contact-container appear">
+                <div class="contact-info">
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-address-book"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>rdphotographs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+1 432 511 2021</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Address</h3>
+                            <p>0923 Rami Street Namiville, PA 25112, UAE</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rydiant-contact-form appear">
+                    <form>
+                        <h1>Let's Discuss Your Vision</h1>
+                        <div class="input-box">
+                            <input type="text" name="name" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="input-box">
+                            <textarea required="required"></textarea>
+                            <span>Compose Your Message</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" name="send" value="I'm In!">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--End of Contact Us Page-->
+
+        <!--Start of Page Footer-->
+        <footer>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <img src="/Images/rydiant-photographs-logo-footer.png" alt="Company Footer Logo" class="footer-logo">
+                </div>
+                <div class="footer-col">
+                    <h3>Contacts <div class="underline"><span></span></div></h3>
+                    <p>0923 Rami Street</p>
+                    <p>Namiville, PA 25112, UAE</p>
+                    <p class="email-id">rdphotographs@gmail.com</p>
+                    <p>+1 432 511 2021</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-links">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-behance"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2023 Railey Inductivo. All Rights Reserved.</p>
+        </footer>
+        <!--End of Page Footer-->
+
+        <!--Scroll Up Button-->
+        <button id="navigateup" onclick="navigateUp()"><i class="fas fa-arrow-up"></i></button>
+        
+        <!--Scripts-->
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/peterhry/CircleType@2.3.1/dist/circletype.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+    </body>
+</html>
+
