@@ -735,6 +735,11 @@
 
 /*Media Query for large-sized mobile device viewport*/
 @media only screen and (max-width: 411px) {
+
+    .about-page-container .star-container {
+        height: 130%;
+    }
+
     .about-page-container {
         height: 130vh;
     }

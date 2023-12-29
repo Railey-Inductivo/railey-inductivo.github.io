@@ -372,6 +372,10 @@
         flex: 0.70;
     }
 
+    .ourservices-page-container .star-container {
+        height: 70%;
+    }
+
 }
 
 /*Media Query for small-sized mobile device viewport*/
