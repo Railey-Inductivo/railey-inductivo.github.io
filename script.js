@@ -28,7 +28,6 @@ function initContentReveal() {
 //End of Content Reveal Animation
 
 //Start of Scroll to Top Function
-
 function initScrollTop() {
     window.onscroll = function () {
         scrollFunction();
@@ -42,7 +41,7 @@ function initScrollTop() {
             navigateup.classList.remove("show");
         }
     }
-
+    
     function navigateUp() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;

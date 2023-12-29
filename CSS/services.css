@@ -220,6 +220,7 @@
 
     .servicedesc-page-container {
         height: 70vh;
+        overflow: hidden;
     }
     
     .servicedesc-page-container .star-container {
@@ -283,6 +284,7 @@
 
     .servicedesc-page-container {
         height: 155vh;
+        overflow: hidden;
     }
     
     .servicedesc-page-container .star-container {
@@ -342,6 +344,7 @@
 
     .servicedesc-page-container {
         height: 220vh;
+        overflow: hidden;
     }
     
     .servicedesc-page-container .star-container {
@@ -401,6 +404,7 @@
 
     .servicedesc-page-container {
         height: 330vh;
+        overflow: hidden;
     }
     
     .servicedesc-page-container .star-container {
